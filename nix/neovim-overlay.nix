@@ -82,10 +82,11 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
     # Expanded plugins list
-    catppuccin
+    catppuccin-nvim
     codeium-vim
     noice-nvim
     vim-autoformat
+    nvim-notify
   ];
 
   extraPackages = with pkgs; [
