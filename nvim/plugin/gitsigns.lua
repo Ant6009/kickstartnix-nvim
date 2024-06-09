@@ -9,16 +9,6 @@ vim.schedule(function()
     current_line_blame_opts = {
       ignore_whitespace = true,
     },
-
-    opts = {
-      -- See `:help gitsigns.txt`
-      signs = {
-        add = { text = '+' },
-        change = { text = '~' },
-        delete = { text = '_' },
-        topdelete = { text = '‾' },
-        changedelete = { text = '~' },
-      },
     on_attach = function(bufnr)
       local gs = package.loaded.gitsigns
 
